@@ -21,6 +21,11 @@ module.exports = {
       exclude: /node_modules/,
       use: 'babel-loader',      
     },
+    {
+      test: /\.svg$/,
+      exclude: /node_modules/,
+      use: 'svg-react-loader',      
+    },
   ],
   },
   devServer: {
