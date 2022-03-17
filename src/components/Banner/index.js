@@ -1,6 +1,6 @@
 import React from "react";
 
-import Hero from '../../assets/images/Hero-banner.svg'
+import Hero from '../../assets/images/Hero.svg'
 
 function Banner() {
   return (

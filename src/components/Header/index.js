@@ -8,8 +8,9 @@ function Header() {
   return (
     <nav>
       <HeaderLogo />
-      <HeaderButton />
+      <input type="text" />
       <HeaderSearch />
+      <HeaderButton />
     </nav>
   )
 }
